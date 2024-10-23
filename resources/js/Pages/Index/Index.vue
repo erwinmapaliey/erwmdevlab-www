@@ -11,7 +11,7 @@
       </p>
 
       <div class="mt-16">
-        <Link href="/about-me" class="bg-black dark:bg-slate-700 hover:bg-gray-500 text-white font-mono font-medium px-8 py-4 rounded-full text-sm">
+        <Link href="/about-me" class="bg-black dark:bg-slate-700 hover:bg-gray-500 text-white font-ubuntu-mono px-8 py-4 rounded-full">
           More Information 
           <span class="text-lg align-middle">
             <i class='bx bx-right-arrow-alt'></i>

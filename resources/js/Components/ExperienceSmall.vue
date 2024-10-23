@@ -7,7 +7,7 @@
       <h1 class="text-lg md:text-2xl font-medium text-[#c49c5e]">{{ company.public_name }}</h1>
       <div v-for="(experience) in company.experiences.slice().reverse()" :key="experience.id" class="mb-6">
         <p class="text-gray-700 dark:text-gray-300 font-light mt-1 md:text-lg">{{ experience.position }}</p>
-        <p class="text-gray-400 dark:text-gray-500 font-normal mt-1 text-xs md:text-sm font-mono">
+        <p class="text-gray-400 dark:text-gray-500 font-normal mt-1 text-sm md:text-md font-ubuntu-mono">
           <span>
             <WorkingDate :date="experience.start_date" />
           </span>

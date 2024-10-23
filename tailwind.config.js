@@ -7,7 +7,12 @@ export default {
         './resources/js/**/*.vue',
     ],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                "poppins": ['Poppins', 'sans-serif'],
+                "ubuntu-mono": ['Ubuntu Mono', 'sans-serif']
+            }
+        },
     },
     plugins: [],
 };

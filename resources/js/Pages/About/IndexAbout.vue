@@ -10,11 +10,13 @@
 
     <section class="pb-8 sm:pb-16 sm:mb-4">
       <h2 class="font-semibold text-xl md:text-2xl text-gray-800 dark:text-gray-300">Experiences</h2>
-      <div v-for="(company) in experiences.slice().reverse()" :key="company.id" class="border-b border-slate-200 last:border-none">
+      
+      <div v-for="(company) in experiences.slice().reverse()" :key="company.id" class="border-b last:border-none border-slate-200 ">
         <ExperienceSmall :company="company" />
       </div>
+
       <div class="mt-10">
-        <a href="/resume.pdf" target="_blank" class="text-lg font-semibold group hover:border-b-2 hover:pb-2">
+        <a href="/resume.pdf" target="_blank" class="text-lg font-semibold group hover:border-b-2 hover:pb-2 hover:text-gray-500 dark:text-gray-300 dark:hover:border-gray-500">
           View Full Resume
           <span class="text-lg align-middle">
             <i class='bx bx-up-arrow-alt rotate-45'></i>
