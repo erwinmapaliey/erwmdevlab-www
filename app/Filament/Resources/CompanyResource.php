@@ -35,6 +35,7 @@ class CompanyResource extends Resource
                     ->required(),
                 TextInput::make('website'),
                 FileUpload::make('thumbnail')
+                    ->image()
                     ->disk('public')
                     ->directory('thumbnails'),
             ]);
