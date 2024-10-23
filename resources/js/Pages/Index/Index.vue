@@ -1,12 +1,12 @@
 <template>
   <div>
     <section className="pb mb-14">
-      <h1 className="font-semibold text-4xl mb-2 text-gray-800 dark:text-gray-300">
+      <h1 className="font-semibold text-3xl md:text-4xl mb-2 text-gray-800 dark:text-gray-300">
         Hello, I’m Erwin Mapaliey.
       </h1>
-      <span class="text-2xl text-[#c49c5e] mb-4 block">Software Engineer</span>
+      <span class="text-xl md:text-2xl text-[#c49c5e] mb-4 block">Software Engineer</span>
 
-      <p className="text-gray-700 dark:text-gray-300 text-lg">
+      <p className="text-gray-700 dark:text-gray-300 md:text-lg">
         I have worked since 2017 with IT consulting companies that help client businesses grow with digital technology.
       </p>
 

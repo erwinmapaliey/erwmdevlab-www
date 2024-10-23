@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="pb-8 sm:pb-16 sm:mb-4">
-      <h1 class="font-semibold text-4xl pb-8 text-gray-800 border-b border-slate-200 dark:text-gray-300">All Projects</h1>
+      <h1 class="font-semibold text-3xl md:text-4xl pb-8 text-gray-800 border-b border-slate-200 dark:text-gray-300">All Projects</h1>
   
       <table class="mt-8 w-full">
         <thead>

@@ -24,7 +24,7 @@
       <slot></slot>
     </main>
 
-    <footer className="px-6 md:px-8 lg:px-0 border-t border-slate-300 py-8 text-slate-700 dark:text-slate-400 font-mono text-xs tracking-tight flex justify-between">
+    <footer class="mt-8 px-6 md:px-8 lg:px-0 border-t border-slate-300 py-6 text-slate-700 dark:text-slate-400 font-mono text-xs tracking-tight flex justify-between">
       <p>
         &copy; 2024 - Erwin Mapaliey
       </p>
