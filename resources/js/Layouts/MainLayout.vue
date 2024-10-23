@@ -1,8 +1,11 @@
 <template>
   <div class="max-w-3xl mx-auto">
     <header class="pt-8 md:pt-16 pb-16 px-6 md:px-0 flex items-center justify-between dark:text-gray-300">
-      <div class="font-semibold font-mono">
+      <div class="font-semibold font-mono hidden sm:inline">
         <Link href="/">erwmdevlab_</Link>
+      </div>
+      <div class="font-semibold font-mono inline sm:hidden">
+        <Link href="/">em_</Link>
       </div>
       <nav class="flex font-mono text-sm gap-4 md:gap-6">
         <div>

@@ -34,10 +34,10 @@ class CompanyResource extends Resource
                 TextInput::make('alias')
                     ->required(),
                 TextInput::make('website'),
-                FileUpload::make('thumbnail')
-                    ->image()
-                    ->disk('public')
-                    ->directory('thumbnails'),
+                // FileUpload::make('thumbnail')
+                //     ->image()
+                //     ->disk('public')
+                //     ->directory('thumbnails'),
             ]);
     }
 
@@ -49,7 +49,7 @@ class CompanyResource extends Resource
                 TextColumn::make('company_name')->label('Company Name'),
                 TextColumn::make('alias'),
                 TextColumn::make('website'),
-                ImageColumn::make('thumbnail'),
+                // ImageColumn::make('thumbnail'),
             ])
             ->filters([
                 //
