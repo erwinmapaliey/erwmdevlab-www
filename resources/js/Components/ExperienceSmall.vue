@@ -1,7 +1,7 @@
 <template>
   <div class="py-8 flex items-center gap-8">
     <div>
-      <img :src="`./storage/${company.thumbnail}`" class="w-20 rounded-2xl">
+      <img :src="`./assets/images/${company.slug}.png`" class="w-20 rounded-2xl">
     </div>
     <div>
       <h1 class="text-2xl font-medium text-[#c49c5e]">{{ company.public_name }}</h1>
