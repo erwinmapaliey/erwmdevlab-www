@@ -14,6 +14,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Filament\Forms\Components\TextInput;
 use Filament\Tables\Columns\TextColumn;
+use Filament\Forms\Components\FileUpload;
+use Filament\Tables\Columns\ImageColumn;
 
 class CompanyResource extends Resource
 {
@@ -32,6 +34,9 @@ class CompanyResource extends Resource
                 TextInput::make('alias')
                     ->required(),
                 TextInput::make('website'),
+                FileUpload::make('thumbnail')
+                    ->disk('public')
+                    ->directory('thumbnails'),
             ]);
     }
 
@@ -43,6 +48,7 @@ class CompanyResource extends Resource
                 TextColumn::make('company_name')->label('Company Name'),
                 TextColumn::make('alias'),
                 TextColumn::make('website'),
+                ImageColumn::make('thumbnail'),
             ])
             ->filters([
                 //
