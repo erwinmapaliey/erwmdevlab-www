@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="pb-8 sm:pb-16 sm:mb-4">
+    <section class="pb-8">
       <h1 class="font-semibold text-3xl md:text-4xl pb-8 text-gray-800 border-b border-slate-200 dark:text-gray-300">All Projects</h1>
   
       <table class="mt-8 w-full">
@@ -14,7 +14,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="project in projects" :key="project.id" class="border-b border-gray-500/20">
+          <tr v-for="project in projects" :key="project.id" class="border-b border-gray-500/20 last:border-none">
             <td class="tbody-list">{{ project.year }}</td>
             <td class="tbody-primary">{{ project.project_name }}</td>
             <td class="tbody-list hidden sm:table-cell" v-if="project.company !== null">{{ project.company.alias }}</td>
